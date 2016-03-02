@@ -124,7 +124,7 @@ public class QuerryFun implements ActionListener {
 					SwingUtilities.invokeLater(new Runnable() {
 						public void run() {
 							country_name.setText(items.get(0));
-							// country_name.setEditable(false);
+							country_name.setEditable(false);
 							System.out.println("country name after 1 query in run" + items.get(0));
 							System.out.println(country_name.getText());
 						}
